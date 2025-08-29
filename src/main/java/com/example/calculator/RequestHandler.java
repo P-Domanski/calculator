@@ -19,7 +19,7 @@ public class RequestHandler {
     public ResponseEntity additionHandler(@RequestParam Double value1, @RequestParam Double value2) {
         Double calculationResult = CalculatorLogicCore.addition(value1, value2);
         Map<String, Double> responseBody = new HashMap<>();
-        responseBody.put("result", calculationResult);
+        responseBody.put("result", calculationResult);  //Wsadź tutaj zamiast normalnej zmiennej
         return ResponseEntity.ok(responseBody); // 200 OK
     }
 

@@ -19,3 +19,5 @@ public class CalculatorLogicCore {
         return _value1 / _value2;
     }
 }
+//Java naming conventions - Bez _ underscore
+//                          Nazwy klas/zmiennych
